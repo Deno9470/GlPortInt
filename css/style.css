@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 img {
   max-width: 100%;
@@ -92,6 +93,10 @@ body {
   background-position: center top -40px;
   border-radius: 50%;
   border: 13px solid #fff;
+}
+.button-down {
+  text-decoration: none;
+  color: #2e2e30;
 }
 /* projects */
 .projects {
