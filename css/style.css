@@ -305,7 +305,15 @@ footer.section {
     border-width: 10px;
   }
 }
-@media (max-width: 836px) {
+@media (max-width: 1000px) {
+  .projects-slide {
+    flex-direction: column;
+  }
+  .projects-image {
+    margin-bottom: 46px;
+  }
+}
+@media (max-width: 900px) {
   .hero-content {
     flex-direction: column;
   }
